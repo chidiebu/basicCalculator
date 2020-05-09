@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css"  href="style.css">
+</head>
+<body>
+
+    <div class="manual">
+        <h2>How to use this simple calculator</h2>
+        <ul>
+            <li>Type the first number.</li>
+            <li>Type the second number.</li>
+            <li>Click on any of the operator.</li>
+            <li>The answer will appear on the answer label.</li>
+            <li>Thinking of doing another calculation ? click on the "clear button" to clear the previous task.</li>
+        </ul>
+    </div>
+
+
+    <div id="container" class="bag">
+        <div id="pageCntrl" class="control">
+            <button id="close" class="contrl">x</button>
+        </div>
+
+        <div id="inputStn" class="inputs">
+            <input class="btn" id="btn1" type="text" placeholder="Enter first number"> <br><br>
+            <input  class="btn" id="btn2"  type="text" placeholder="Enter second number">
+        </div>
+        <div id="answerLabel" class="ansStn">Answer</div>
+        <button id="clrBtn" class="clear">Clear</button>
+        <div id="operators" class="calcs">
+           <button id="add" class="opt">+</button>
+           <button id="minus" class="opt">-</button>
+           <button id="mult" class="opt">*</button>
+           <button id="divide" class="opt">/</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

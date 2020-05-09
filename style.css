@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(129, 4, 246, 0.4);
+}
+.manual {
+    position: absolute;
+    top: 15%;
+    background-color: white;
+    border-radius: 10px;
+    left: 2%;
+    padding: 2.5em;
+    width: 20vw;
+}
+
+.contrl {
+    background-color: red;
+    width: 4vw;
+    height: 4vh;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1vh;
+    position: absolute;
+    left: 88%;
+}
+.manual h2 {
+    margin-bottom: 1em;
+}
+.manual li {
+    font-size: 1.2em;
+}
+
+.bag {
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: 70vh;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    padding: 1em;
+}
+.inputs {
+    position: absolute;
+    top: 10%;
+    left: 28%;
+}
+.btn {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 25vw;
+    height: 7vh;
+}
+.ansStn {
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    background-color: blueviolet;
+    padding: 10px;
+    width: 25vw;
+    text-align: center;
+    margin: 0.6em;
+    color: white;
+    font-size: 1.8em;
+}
+.clear {
+    top: 41%;
+    position: absolute;
+    border-radius: 30%;
+    background-color: rgb(207, 15, 15);
+    font-size: 1.5em;
+    color: white;
+    width: 4.7em;
+    cursor: pointer;
+}
+.calcs {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 13%;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+.opt{
+    background-color: blueviolet;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-top: 0.7em;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+    width: 4.7em;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .bag {
+        width: 65%;
+        top: 15%;
+        left: 30%;
+    }
+    .calcs {
+        left: 9%;
+        top: 60%;
+    }
+    .manual {
+        top: 15%;
+        left: 3%;
+        padding: 2em;
+        width: 25vw;
+    }
+    .btn {
+        width: 50vw;
+    }
+    .inputs {
+        left: 13%;
+        top: 15%;
+    }
+    .ansStn {
+        top: 42%;
+    }
+    .clear {
+        top: 47%;
+    }
+}
+
+@media (max-width: 768px) {
+    .bag {
+        width: 63%;
+        left: 35%;
+        height: 79vh;
+        top: 10%;
+        padding: 0.6em;
+    }
+    .manual {
+        top: 10%;
+        left: 3%;
+        width: 28vw;
+    }
+    .manual li {
+        font-size: 1.1em;
+    }
+    .manual h2 {
+        font-size: 1.2em;
+    }
+    .clear {
+        width: 4em;
+        top: 40%;
+    }
+    .btn {
+        width: 50vw;
+    }
+    .inputs {
+        left: 13%;
+        top: 12%;
+    }
+    .ansStn {
+        top: 35%;
+    }
+    .calcs {
+        top: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+   
+    .manual {
+        top: 2%;
+        left: 5%;
+        width: 90vw;
+    }
+    .bag {
+        width: 90vw;
+        left: 1%;
+        height: 69vh;
+        top: 42%;
+        margin: 1em;
+    }
+    .contrl {
+        display: none;
+    }
+    .inputs {
+        left: 15%;
+        top: 5%;
+    }
+    .btn {
+        width: 70vw;
+    }
+    .ansStn {
+        top: 30%;
+        width: 40vw;
+    }
+    .clear {
+        width: 3em;
+        top: 36%;
+    }
+    .calcs {
+        top: 45%;
+        left: 10%;
+    }
+    .opt {
+        width: 80vw;
+        margin-bottom: -0.1em;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .manual li {
+        font-size: 1em;
+    }
+    .manual h2 {
+        font-size: 1.1em;
+    }
+    .opt {
+        margin-top: 0.4em;
+        margin-bottom: 0em;
+    }
+    .calcs {
+        top: 47%;
+    }
+
+}
